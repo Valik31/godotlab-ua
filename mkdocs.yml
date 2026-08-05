@@ -1,6 +1,8 @@
 site_name: "GodotLab: Розробка та геймдизайн"
-theme: readthedocs
+
+theme:
+  name: material
+  language: uk
 
 nav:
-  - Вступ: index.md
-  - Теорія: theory.md
+  - Головна: index.md
