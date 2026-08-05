@@ -35,3 +35,8 @@ theme:
 
 nav:
   - Головна: index.md
+  - Модуль 1. Основи:
+    - Інтерфейс Godot: interface.md
+    - Робота з вузлами (Nodes): nodes.md
+  - Модуль 2. Програмування:
+    - Вступ до GDScript: scripting.md
