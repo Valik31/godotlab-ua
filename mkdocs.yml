@@ -3,6 +3,35 @@ site_name: "GodotLab: Розробка та геймдизайн"
 theme:
   name: material
   language: uk
+  
+  # 1. Додаємо іконку в шапку сайту (геймпад)
+  icon:
+    logo: material/gamepad-variant
+  
+  # 2. Налаштовуємо красиві шрифти від Google
+  font:
+    text: Roboto
+    code: Fira Code
+    
+  # 3. Налаштовуємо кольори (синій у стилі Godot) та перемикач тем
+  palette:
+    # Світла тема
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Увімкнути темну тему
+        
+    # Темна тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Увімкнути світлу тему
 
 nav:
   - Головна: index.md
